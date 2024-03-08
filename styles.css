@@ -1,6 +1,7 @@
 body{
     background: url("miss-minutes-landscape.jpg");
     background-size: cover;
+    background-repeat: none;
     width: 100%;
     overflow: hidden;
     
