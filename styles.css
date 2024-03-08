@@ -1,8 +1,8 @@
 body{
     background: url("miss-minutes-landscape.jpg");
-    background-size: cover;
-    background-repeat: none;
-    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Centers the background image */
     width: 100%;
     overflow: hidden;
     
