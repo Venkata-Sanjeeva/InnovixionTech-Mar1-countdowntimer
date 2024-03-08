@@ -1,0 +1,96 @@
+body{
+    background: url("miss-minutes-landscape.jpg");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    
+}
+input{
+    outline: none;
+    background: transparent;
+    padding: .7rem;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.heading{
+    color: #ffd966;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+.input-parent-container{
+    text-align: center;
+    
+}
+.input-parent-container input{
+    width: 110px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#time-body{
+    margin-top: 6rem;
+}
+#timer-parent-container{
+    text-align: center;
+}
+
+#timer-child-container{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container button{
+    width: 170px;
+    height: 50px;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 15px;
+    font-size: 23px;
+    font-family: roboto;
+    font-weight: 1rem;
+    background-color: paleturquoise;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+    
+}
+
+.button-container button:hover{
+    background-color: #50c878;
+    color:#000;
+}
+
+.button-container button:active{
+    background-color: #042E4C;
+    color:#ffffff;
+}
+.material-symbols-outlined {
+    background-position: center;
+    text-align: center;
+    margin-left: 5px;
+}
+
+label{
+    font-size: 1.3rem;
+    color: white;
+}
+
